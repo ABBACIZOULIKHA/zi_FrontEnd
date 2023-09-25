@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/zi_FrontEnd/static/css/main.7fb63638.css",
+    "main.js": "/zi_FrontEnd/static/js/main.71aa98b1.js",
+    "static/media/Tipaza-C420-009-03 OSS Fiber Core Link Detail FDT001.pdf": "/zi_FrontEnd/static/media/Tipaza-C420-009-03 OSS Fiber Core Link Detail FDT001.c2db86a6a70ff1f43475.pdf",
+    "static/media/Tipaza-C420-009-03 OSS Fiber Core Link Detail FDT001.xlsx": "/zi_FrontEnd/static/media/Tipaza-C420-009-03 OSS Fiber Core Link Detail FDT001.f81e0d9ea25696ffd548.xlsx",
+    "static/media/Logo.png": "/zi_FrontEnd/static/media/Logo.f080a7529657806d1b93.png",
+    "index.html": "/zi_FrontEnd/index.html",
+    "main.7fb63638.css.map": "/zi_FrontEnd/static/css/main.7fb63638.css.map",
+    "main.71aa98b1.js.map": "/zi_FrontEnd/static/js/main.71aa98b1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7fb63638.css",
+    "static/js/main.71aa98b1.js"
+  ]
+}
