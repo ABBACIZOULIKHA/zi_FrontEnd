@@ -13,13 +13,18 @@ export default function Login() {
   const login = () => {
     const data = { username: username, password: password };
     axios.post("http://localhost:3001/auth/login", data).then((response) => {
-      if (response.data.error) {
-        alert(response.data.error);
-      } else {
-        sessionStorage.setItem("accessToken", response.data);
-        navigate('/olt_list');
-       localStorage.setItem("username",username) ;
-       
+     
+      try {
+        if (response.data.error) {
+          alert(response.data.error);
+        } else {
+          sessionStorage.setItem("accessToken", response.data);
+          navigate('/olt_list');
+         localStorage.setItem("username",username) ;
+         
+        }
+      } catch (error) {
+        console.log("login failed") ;
       }
     });
   };

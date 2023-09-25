@@ -40,7 +40,6 @@ export default function Sites_list(props) {
      <div className='flex items-start'><h1 className='text-3xl text-gris'>Sites list</h1></div>
        <div className='flex flex-row justify-between'>
        <div className='flex flex-row items-start'>
-       {/* <h1 className='text-gris'>Select FDT to display the sites list </h1> */}
         
        </div>
 
@@ -51,7 +50,7 @@ export default function Sites_list(props) {
 
        </div>
 
-       <div className='flex flex-row gap-2'> 
+       <div className='flex flex-col gap-2'> 
       {listOfSitesg.map((value,key)=>{
 
         return(
