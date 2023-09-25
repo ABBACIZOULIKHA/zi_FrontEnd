@@ -12,7 +12,7 @@ export default function AddFile({visible , onClose , ids}) {
 
 
   const addFile = () => {
-   if (filename != ""){
+   if (filename !== ""){
     const data = { fileName: filename, url: url ,FdtId:ids };
     axios.post("http://localhost:3001/sites", data).then((response) => {
       navigate('/olt_list');

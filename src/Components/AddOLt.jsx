@@ -17,7 +17,7 @@ export default function AddOLt({visible , onClose }) {
   const navigate = useNavigate();
 
   const addOlt = () => {
-   if (name != "" && cmp != ""){
+   if (name !== "" && cmp !== ""){
     const data = { name: name, stackVlan: stackVlan , neName:neName ,cmp: cmp  ,investNature : investNature,
       dwellingType : dwellingType,projectCode:projectCode,budgetCode:budgetCode,geomarketingCode:geomarketingCode , 
       dwellingsNumber: dwellingsNumber, addressIp:addressIp};

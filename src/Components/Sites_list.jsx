@@ -7,7 +7,6 @@ import {BsFileEarmarkPdfFill} from 'react-icons/bs'
 import {AiFillFileExcel} from 'react-icons/ai'
 export default function Sites_list(props) {
   const [listOfSitesg, setListOfSitesg] = useState([]);
-  const [show ,setShow] =useState(false)
   useEffect(() => {
     axios.get(`http://localhost:3001/sites/${props.fdt}`).then((response) => {
       setListOfSitesg(response.data);

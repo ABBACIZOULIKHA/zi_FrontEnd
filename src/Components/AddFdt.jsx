@@ -9,7 +9,7 @@ export default function AddFdt({visible , onClose , ids}) {
 
 
   const addFdt = () => {
-    if (name != ""){
+    if (name !== ""){
       const data = {name: name, OltId:ids };
     axios.post("http://localhost:3001/fdts", data).then((response) => {
       navigate('/olt_list');

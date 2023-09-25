@@ -8,7 +8,7 @@ export default function AddUser({visible , onClose }) {
 
   
   const addUser = () => {
-   if (username != "" && password != "" && profile != ""){
+   if (username !== "" && password !== "" && profile !== ""){
     const data = { username: username, password: password ,profile: profile };
     axios.post("http://localhost:3001/auth", data).then((response) => {
       alert("ADDED SUCCESSFULLY !!");

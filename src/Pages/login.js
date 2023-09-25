@@ -32,7 +32,7 @@ export default function Login() {
     <div className='flex items-center justify-center w-screen h-screen bg-bleuf'>
        <div className='flex flex-col gap-8'>
        <div className='flex justify-center items-center'>
-       <img className=' w-40' src={Logo}/>
+       <img className=' w-40' src={Logo} alt='logo of the app'/>
        </div>
        
        
